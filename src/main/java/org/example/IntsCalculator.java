@@ -10,6 +10,8 @@ public class IntsCalculator implements Ints {
 
     @Override
     public int sum(int arg0, int arg1) {
+        System.out.println("Первое число равно " + arg0);
+        System.out.println("Первое число равно " + arg1);
         return (int) target.newFormula()
                 .addOperand(arg0)
                 .addOperand(arg1)
@@ -19,6 +21,8 @@ public class IntsCalculator implements Ints {
 
     @Override
     public int mult(int arg0, int arg1) {
+        System.out.println("Первое число равно " + arg0);
+        System.out.println("Первое число равно " + arg1);
         return (int) target.newFormula()
                 .addOperand(arg0)
                 .addOperand(arg1)
@@ -28,6 +32,8 @@ public class IntsCalculator implements Ints {
 
     @Override
     public int pow(int a, int b) {
+        System.out.println("Первое число равно " + a);
+        System.out.println("Первое число равно " + b);
         return (int) target.newFormula()
                 .addOperand(a)
                 .addOperand(b)
